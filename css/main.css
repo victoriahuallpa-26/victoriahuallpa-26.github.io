@@ -30,6 +30,13 @@
   margin-top:30px;
   margin-bottom:40px;
 }
+#titulo-3{
+  font-family:'Josefin Sans', sans-serif;
+  font-size:20px;
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:40px;
+}
 .fondo{
   width:100%;
   background:url(../images/camino3.jpg);
@@ -133,15 +140,14 @@ transition:height 0.3s;
     -webkit-transition: .5s ease; /* Chrome - Safari */
     -o-transition: .5s ease; /* Opera */
  }
- .btn-default:hover{
-  opacity:0.8;
+ .btn-default:hover{  
   color:#FFBF00;
+  background-color:white;
   transform : scale(1.2);
     -moz-transform : scale(1.2); /* Firefox */
     -webkit-transform : scale(1.2); /* Chrome - Safari */
     -o-transform : scale(1.2); /* Opera */
     -ms-transform : scale(1.2); /* IE9 */
-
  }
 .logotipo{
   width:160px;
@@ -194,7 +200,7 @@ Copiar texto
 }
 /*sobremi*/
 .fondo-melon{
-  background:#F0D58C;
+  background:#F3E2A9;
 }
 p{
   color:white;
@@ -439,5 +445,22 @@ p{
 }
 li.active a
 {
-color:#000 !important;
+color:#8b502e!important;
+}
+
+@media screen and (max-width:700px) {
+  #titulo-3{
+    color:white;
+    font-weight:normal;
+  }
+  #unico{
+    margin-top:100px;
+    font-size:80px;
+  }
+  .boton{
+    margin-top:40px;
+  }
+  .iconos{
+    margin-top:60px;
+  }
 }
