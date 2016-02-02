@@ -89,13 +89,13 @@ transition:height 0.3s;
   color:#FFBF00!important;
 }
 .perfil{
-  width:300px;
+  width:100%;
   margin:0 auto;
   margin-top:20px;
   margin-bottom:40px;
 }
 .perfil img{
-  width:300px;
+  width:100%px;
 }
 .iconos{
   width:230px;
